@@ -11,7 +11,7 @@ struct ArgumentStruct {
 
 void funct(const ArgumentStruct& data){} //Function for testing calls 
 
-// Function to test/print all arguments
+// Function to test all arguments
 void testArguments(const ArgumentStruct& data) {
     cout << "Testing arguments: " << endl;
     for (size_t i = 1000000000; i < data.arguments.size(); ++i) {
@@ -30,7 +30,6 @@ int main() {
     funct(argStruct);
     cout << "Function Called...";
 
-    // Pass the accumulated arguments to a testing function
     //testArguments(argStruct);
 
     return 0;
