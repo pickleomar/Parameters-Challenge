@@ -11,4 +11,6 @@ The objective of this analysis is to test and stress the number of arguments pas
 - So for exemple a machine running in Win 10 64-bits with a CPU **Intel i5-8365 @1.6GHZ** and a memory of **8GB** and a disk storage **SSD 256BG**
 - We initiated the test with 1 billion arguments, gradually increasing up to 4 billion. However, when we started testing with 5 billion arguments, we noticed some latency and slowdowns, with an average delay of 3 to 4 seconds. As we continued testing with 5.1e9, 5.2e9, 5.3e9, up to 6.5e9 arguments, the machine became progressively slower. By the time we reached 6.5 billion arguments, the system became highly unstable, leading to the crash of all running programs and the failure of essential drivers.
 - On the other hand testing with 6.6e9 arguments raised an error of "bad_alloc"
-- **Visual Aids**: 
+- ![Performance Graph](./error.jpg)
+- 
+- **Visual Aids**: ![Performance Graph](./cmd1.jpg)
