@@ -13,6 +13,5 @@ The objective of this analysis is to test and stress the number of arguments pas
 - On the other hand testing with 6.6e9 arguments raised an error of "bad_alloc"
 - ![Performance Graph](./error.jpg)
 - 
-- **Visual Aids**: ![Performance Graph](./cmd1.jpg)
 
 - **Reached Limit** ![Performance Graph](./LIMIT.jpg)
